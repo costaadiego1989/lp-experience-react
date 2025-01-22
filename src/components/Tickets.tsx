@@ -75,7 +75,7 @@ const Tickets: React.FC = () => {
   }
 
   return (
-    <section className="py-12 md:py-20 px-4 md:px-6 relative">
+    <section className="py-12 md:py-20 px-4 md:px-6 relative" id="tickets">
       <div
         className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a')] 
         bg-cover bg-fixed opacity-10"

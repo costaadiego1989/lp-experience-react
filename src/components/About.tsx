@@ -3,7 +3,7 @@ import { YinYang } from '@phosphor-icons/react';
 
 const About: React.FC = () => {
   return (
-    <section className="py-12 md:py-20 px-4 md:px-6 relative">
+    <section className="py-12 md:py-20 px-4 md:px-6 relative" id="about">
       <div className="container mx-auto">
         <div className="bg-white/5 backdrop-blur-md rounded-3xl p-8 md:p-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
