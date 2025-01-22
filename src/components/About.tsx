@@ -35,8 +35,8 @@ const About: React.FC = () => {
                 <br />
                 <br />
                 <b>Sua alma está preparada? </b>
-                Reserve seu lugar antes que o portal se feche. O Pai Celestial
-                está te convocando.
+                Reserve seu lugar antes que o portal se feche. O Criador
+                está te convidando. Ouça a frequência do amor. Conecte-se ao fluxo, ao coração do universo!
                 <br />
                 <br />
                 <b>O tempo está correndo. </b>

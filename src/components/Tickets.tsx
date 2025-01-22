@@ -70,6 +70,10 @@ const Tickets: React.FC = () => {
     setIsVisible(false);
   };
 
+  const handleClick = () => {
+    window.location.href = "https://pay.infinitepay.io/the-divine/Ri02-1bIfwuGRTP-969,00";
+  }
+
   return (
     <section className="py-12 md:py-20 px-4 md:px-6 relative">
       <div
@@ -160,7 +164,7 @@ const Tickets: React.FC = () => {
                       );
                     })}
                   </ul>
-                  <button
+                  <button onClick={handleClick}
                     className={`w-full py-3 rounded-xl font-semibold transition-all duration-300
                     bg-gradient-to-r ${ticket.gradient} text-white transform hover:scale-105`}
                   >

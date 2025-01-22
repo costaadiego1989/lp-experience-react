@@ -4,7 +4,12 @@ import Typewriter from 'typewriter-effect';
 import { useCountdown } from '../hooks/useCountdown';
 
 const Hero: React.FC = () => {
-  const timeLeft = useCountdown(new Date('2025-07-05T11:00:00'));
+
+  const handleClick = () => {
+    window.location.href = "https://pay.infinitepay.io/the-divine/Ri02-1bIfwuGRTP-969,00";
+  }
+
+  const timeLeft = useCountdown(new Date('2025-07-25T11:00:00'));
 
   return (
     <section className="pt-24 md:pt-32 pb-12 md:pb-20 px-4 md:px-6 relative">
@@ -73,7 +78,7 @@ const Hero: React.FC = () => {
           ))}
         </div>
 
-        <button
+        <button onClick={handleClick}
           className="px-4 py-2 bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg 
             transform hover:scale-105 transition-all duration-300 text-white font-semibold text-sm"
         >

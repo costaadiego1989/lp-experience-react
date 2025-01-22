@@ -2,6 +2,11 @@ import React from 'react';
 // import { Link } from "react-router-dom"
 
 const Header: React.FC = () => {
+
+  const handleClick = () => {
+    <a target='_blank' href="https://pay.infinitepay.io/the-divine/Ri02-1blfwuGRTP-969,00">Google</a>
+  }
+
   return (
     <header className="fixed w-full z-50 bg-white/10 backdrop-blur-md">
       <div className="container mx-auto px-4 py-4">
@@ -19,7 +24,7 @@ const Header: React.FC = () => {
             <li><Link to="/faq">Faq</Link></li>
         </ul>
           </nav> */}
-          <button
+          <button onClick={handleClick}
             className="px-4 py-2 bg-gradient-to-r from-yellow-500 to-pink-500 rounded-lg 
             transform hover:scale-105 transition-all duration-300 text-white font-semibold text-sm"
           >
