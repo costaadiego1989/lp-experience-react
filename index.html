@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Divine Experience</title>
+  </head>
+  <body>
+    <div id="root">  
+      <video id="myVideo">
+        <source src="set.mp4" type="video/mp4">
+      </video>         
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // AVISO: Este é apenas um exemplo educacional
+document.addEventListener('DOMContentLoaded', function() {
+  const video = document.querySelector('video');
+  
+  // Tenta iniciar o vídeo com áudio
+  function attemptAutoplay() {
+    // Define volume e remove mudo
+    video.volume = 1;
+    video.muted = false;
+    
+    // Tenta dar play
+    const playPromise = video.play();
+    
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          console.log('Autoplay iniciado com sucesso');
+        })
+        .catch(error => {
+          console.log('Autoplay bloqueado:', error);
+          // Se falhar, tenta novamente em um evento de interação
+          document.addEventListener('click', function tryAgain() {
+            video.play();
+            document.removeEventListener('click', tryAgain);
+          });
+        });
+    }
+  }
+  
+  attemptAutoplay();
+});
+    </script>
+  </body>
+</html>
