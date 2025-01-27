@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           </a>
           <div className="relative -mt-8">
             <a href="/" className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
+              <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-700  to-blue-500 flex items-center justify-center shadow-lg">
                 <img src="/geo.png" alt="Logo" className="w-12 h-12 shadow-2xl hover:shadow-3xl transition-shadow duration-300" />
               </div>
             </a>
