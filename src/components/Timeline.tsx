@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Timer } from 'lucide-react';
-import { Carrot, FlowerLotus, FlyingSaucer, HandsPraying, MicrophoneStage, PersonSimpleTaiChi, SketchLogo, StarAndCrescent, SunHorizon, Waveform, YinYang } from '@phosphor-icons/react';
+import { Carrot, Coffee, FlowerLotus, FlyingSaucer, HandsPraying, MicrophoneStage, PersonSimpleTaiChi, SketchLogo, StarAndCrescent, SunHorizon, Waveform, YinYang } from '@phosphor-icons/react';
 
 const timeline = [
   {
@@ -18,15 +18,21 @@ const timeline = [
     icon: <Carrot size={48} color='#fff' />
   },
   {
-    time: '14:00',
+    time: '13:30',
     title: 'Palestra: Quebrando Tabus Espirituais',
     description: 'Entender o que é a espiritualidade em um contexto macro',
     icon: <FlyingSaucer size={48} color='#fff' />
   },
   {
+    time: '14:30',
+    title: 'Cerimônia do Cacau',
+    description: 'Consagração da medicina do Cacau para expandir o amor interno',
+    icon: <Coffee size={48} color='#fff' />
+  },
+  {
     time: '15:30',
-    title: 'Cristaloterapia',
-    description: 'Alinhamento dos chakras com cristais',
+    title: 'Transe Tambores e Dança',
+    description: 'Uma experiência ativa e dançante indescritivel com Cacao',
     icon: <SketchLogo size={48} color='#fff' />
   },
   {
@@ -68,7 +74,7 @@ const timeline = [
   {
     time: '05:30',
     title: 'Set Psycho Sirius A',
-    description: 'A gratidão pela vida manifestada no ápice da cura',
+    description: 'A gratidão pela vida manifestada no ápice da cura com static dance',
     icon: <SunHorizon size={48} color='#fff' />
   },
   {

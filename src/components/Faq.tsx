@@ -12,8 +12,12 @@ const faqs = [
     answer: 'Esse encontro foi feito para quem ouvir o chamado, porém contra indicado para quem utiliza de remédios de tarja preta, possui disturbios da mente e ou deficiência mental, mulheres grávidas e lactantes e pessoas com problemas cardíacos ou pressão alta.'
   },
   {
-    question: 'O que é a medicina da floresta?',
-    answer: 'O Uni é uma beberagem sagrada que os povos originários da América do Sul consagram há milênios com base em registros arqueológicos para se conectarem com o plano divino e se curarem de suas chaga físicas, mentais e espirituais.'
+    question: 'O que é Ayahuasca?',
+    answer: 'o Ritual da Ayahuasca é uma cerimônia sagrada que utiliza uma beberagem também chamada de Uni que os povos originários da América do Sul consagram há milênios com base em registros arqueológicos para se conectarem com o plano divino e se curarem de suas chaga físicas, mentais e espirituais.'
+  },
+  {
+    question: 'O que é o Cacau?',
+    answer: 'O Ritual do Cacau é uma cerimônia sagrada que utiliza o cacau em sua forma pura e natural como uma "medicina do coração". Originário das tradições indígenas da América Central, especialmente dos povos Maias e Astecas, o cacau é considerado um alimento espiritual que promove a conexão interior, a abertura do coração e a expansão da consciência.'
   },
   {
     question: 'Preciso ter experiência prévia com espiritualidade?',
@@ -37,7 +41,7 @@ const faqs = [
   },
   {
     question: 'Haverá alimentação durante o evento?',
-    answer: 'Sim, dependendo do tipo de ingresso escolhido. O ingresso Semeador e Ascencionado incluem almoço vegetariano, lanches e coffee break. Todas as refeições são preparadas com alimentos orgânicos e energeticamente harmonizados.'
+    answer: 'Sim. Serviremos almoço vegetariano, lanches e coffee break. Todas as refeições são preparadas com alimentos naturais e energeticamente harmonizados.'
   },
   {
     question: 'Onde exatamente será realizado o evento?',

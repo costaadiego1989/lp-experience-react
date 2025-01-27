@@ -6,16 +6,14 @@ import { SketchLogo } from "@phosphor-icons/react"
 
 const tickets = [
   {
-    title: 'Abundante',
+    title: 'Semeador',
     price: 'R$ 969',
     divideIn: 'Em até 6x de R$ 161',
     icon: SketchLogo,
     features: [
       'Acesso a todas as vivências',
-      'Kit de boas-vindas exclusivo',
       '30% destinado a Nova Terra',
       'Embaixador da Nova Terra',
-      'Área de descanso',
     ],
     gradient: 'from-purple-500 to-blue-500',
     featured: true,
@@ -82,7 +80,7 @@ const Tickets: React.FC = () => {
       />
       <div className="container mx-auto relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8 md:mb-16">
-          Valor do acesso
+          Valor da vivência
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {tickets.map((ticket, index) => {

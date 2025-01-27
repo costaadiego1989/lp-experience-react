@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <>
       {/* Mobile Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md border-t border-white/20 md:hidden z-50">
+      <nav className="fixed bottom-0 py-2 left-0 right-0 bg-white/10 backdrop-blur-md border-t border-white/20 md:hidden z-50">
         <div className="flex justify-around items-center h-16">
           <a href="#about" className="flex flex-col items-center text-purple-200 hover:text-white transition-colors">
             <Info className="w-6 h-6" />
@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
           </a>
           <a href="#timeline" className="flex flex-col items-center text-purple-200 hover:text-white transition-colors">
             <Clock className="w-6 h-6" />
-            <span className="text-xs mt-1">Cronograma</span>
+            <span className="text-xs mt-1">Vivência</span>
           </a>
           <div className="relative -mt-8">
             <a href="/" className="absolute -top-4 left-1/2 transform -translate-x-1/2">
               <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
-                <img src="/geo.png" alt="Logo" className="w-12 h-12" />
+                <img src="/geo.png" alt="Logo" className="w-12 h-12 shadow-2xl hover:shadow-3xl transition-shadow duration-300" />
               </div>
             </a>
           </div>
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
                 Contato
               </h4>
               <ul className="space-y-3 md:space-y-4 text-purple-200">
-                <li>contato@divineexperience.com</li>
+                <li>divinexperience@gmail.com</li>
                 <li>+55 (21) 99300-1883</li>
                 <li>Rio de Janeiro, RJ</li>
               </ul>

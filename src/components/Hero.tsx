@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
     window.location.href = "https://pay.infinitepay.io/the-divine/Ri02-1bIfwuGRTP-969,00";
   }
 
-  const timeLeft = useCountdown(new Date('2025-07-25T11:00:00'));
+  const timeLeft = useCountdown(new Date('2025-07-12T11:00:00'));
 
   return (
     <section className="pt-24 md:pt-32 pb-12 md:pb-20 px-4 md:px-6 relative">
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         bg-cover bg-[-925px] opacity-20"
       />
       <div className="container mx-auto text-center relative z-10">
-        <div className="mb-8 mt-8 text-4xl md:text-4xl font-bold text-white mb-6">
+        <div className="mb-8 mt-8 text-4xl md:text-4xl font-bold text-white">
         <div className="flex justify-center mx-auto -mt-20 mb-8">
             <img src="/geo.png" alt="Logo" style={{ height: '100px' }} />
             <span className="text-xl font-bold text-white"></span>
@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 2.5 }}
           className="text-lg md:text-xl text-purple-200 mb-8 md:mb-12"
         >
-          25 • Julho • 2025 • Rio de Janeiro
+          12 • Julho • 2025 • Rio de Janeiro
         </motion.p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-xs md:max-w-2xl mx-auto mb-8 md:mb-12">
