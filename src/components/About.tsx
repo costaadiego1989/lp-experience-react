@@ -19,7 +19,7 @@ const About: React.FC = () => {
                 </div>
               <p className="text-purple-200 text-base md:text-lg leading-relaxed mb-6">
                 Algo extraordinário está para acontecer.{' '}
-                <b>25 de julho de 2025</b>, no Rio de Janeiro, os filhos da luz
+                <b>12 de julho de 2025</b>, no Rio de Janeiro, os filhos da luz
                 se reunirão para abrir um portal de cura, despertar e elevação
                 espiritual.
                 <br />
