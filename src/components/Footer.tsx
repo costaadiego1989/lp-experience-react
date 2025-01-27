@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronRight, Info, Clock, Ticket, HelpCircle } from 'lucide-react';
+import { HandsPraying } from '@phosphor-icons/react';
 
 const Footer: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Footer: React.FC = () => {
             <span className="text-xs mt-1">Sobre</span>
           </a>
           <a href="#timeline" className="flex flex-col items-center text-purple-200 hover:text-white transition-colors">
-            <Clock className="w-6 h-6" />
+            <HandsPraying className="w-6 h-6" />
             <span className="text-xs mt-1">Vivência</span>
           </a>
           <div className="relative -mt-8">
