@@ -53,7 +53,7 @@ const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = React.useState<number | null>(null);
 
   return (
-    <section className="py-12 md:py-20 px-4 md:px-6 relative">
+    <section className="py-12 md:py-20 px-4 md:px-6 relative" id="faq">
       <div className="absolute inset-0 bg-[url('/back-hero.jpg')] bg-cover bg-fixed opacity-20" />
       <div className="container mx-auto relative">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-8 md:mb-16">
